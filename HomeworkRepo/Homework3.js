@@ -33,7 +33,7 @@ function preparePizza([orderSize, orderCrust, orderToppings]) {
     toppings: orderToppings
 };
 }
- let cookedPizza = preparePizza(customerOder)
+let cookedPizza = preparePizza(customerOrder);
 
 
 //5
@@ -43,8 +43,8 @@ let orderReady = `Order up! Here's your ${pizza.size} ${pizza.crust} crust pizza
 for (let topping of pizza.toppings) {
   orderReady += `${topping},`;
 }
-console.log(`${topping}, Enjoy!`);
-return pizzza;
+console.log(`${orderReady}, Enjoy!`);
+return pizza;
 }
 servePizza(cookedPizza);
 
@@ -56,3 +56,4 @@ const myPizza =
 servePizza(preparePizza(getPizzaOrder("Cheese", "meat", "veggies", "Pineapple")));
 
 console.log(myPizza);
+
