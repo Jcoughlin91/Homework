@@ -1,0 +1,36 @@
+
+
+
+h1 {
+    color: green;
+    padding-left: 200px;
+    
+
+}
+
+.firstList {
+    Color: blue;
+    margin: 30px;
+}
+
+
+ul>li {
+    font-size: larger;
+}
+
+body {
+background-color:rgb(61, 219, 219)
+}
+.DinnoImage { 
+    border: 2px solid blue;
+    border-radius: 15px;
+    
+}
+background {
+    color: green;
+}
+.secondList{
+    color:rgb(64, 32, 105);
+    margin: 30px;
+    
+}
