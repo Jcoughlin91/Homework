@@ -1,0 +1,37 @@
+html {
+    background-color: rgb(233, 195, 146);
+  }
+  body {
+    text-align: center;
+    font-size: 18px;
+    @media (max-width: 375px) (max-height 667px) {
+        background-color: lightblue;
+      }
+    
+  h1 {
+    font-size: 50px;
+  }
+  
+  img {
+    height: 100%;
+  }
+  
+  div {
+    border: 2px solid burlywood;
+    margin: 10px;
+  }
+  
+  #introPic {
+    float: left;
+  }
+  
+  #bio {
+    float: right;
+  }
+  #bio > li {
+    padding: 2px;
+  }
+  
+  #pro {
+    width: auto;
+  }
